@@ -1,0 +1,17 @@
+{
+  "name": "ts-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "person-class": "tsc && Node dist/person.class.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Cuauro",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.10",
+    "tslint": "^6.1.3",
+    "typescript": "^5.1.6"
+  }
+}
