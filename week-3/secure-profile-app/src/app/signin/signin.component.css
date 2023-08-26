@@ -1,0 +1,12 @@
+/* 
+  Title: signin.component.css
+  Author: Professor Krasso
+  Date: 08/25/2023
+  Modified By: Patrick Cuauro
+  Description: signin component css file
+*/
+.signin-container {
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
