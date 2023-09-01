@@ -1,7 +1,7 @@
 /**
  * Title: app.module.ts
  * Author: Professor Krasso
- * Date: 08/30/2023
+ * Date: 08/22/2023
  * Description: App module
  */
 
@@ -15,7 +15,6 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ComposerDetailsComponent } from './composer-details/composer-details.component';
 import { RouterModule } from '@angular/router';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,9 +27,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule,
-    FormsModule,
-    ReactiveFormsModule
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

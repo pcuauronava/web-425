@@ -1,0 +1,43 @@
+<!--
+    ==============================================
+    ;   Title: app.component.html
+    ;   Author: Richard Krasso
+    ;   Date: 08 18 2023
+    ;   Modified by: Patrick Cuauro
+    ;   Description: composer-app
+    ==============================================
+    -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="navbar-nav">
+    <!-- <li class="nav-item active">
+      <a class="nav-link" routerLink="/home">Home</a>
+    
+    </li> -->
+    <li class="nav-item active">
+      <a class="nav-link" routerLink="/composer-list">Composer List</a>
+      <!-- Added routerLink="/composer-list" to the anchor tag -->
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/about">About</a>
+      <!-- Added routerLink="/about" to the anchor tag -->
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/contact">Contact Us</a>
+      <!-- Added routerLink="/contact" to the anchor tag -->
+    </li>
+  </ul>
+</nav>
+<div role="main" class="container">
+  <br /><br />
+
+  <h2>{{ assignment }}</h2>
+
+  <br /><br />
+  <div class="row">
+    <div class="col-sm-12">
+      <div>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>

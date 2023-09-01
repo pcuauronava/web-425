@@ -2,7 +2,6 @@
  * Title: composer-details.component.ts
  * Author: Professor Krasso
  * Date: 08/30/2023
- * Modified By: Patrick Cuauro
  * Description: Composer details component (composer details page)
  */
 

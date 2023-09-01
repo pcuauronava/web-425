@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "reactive-composer-app": {
+    "di-composer-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/reactive-composer-app",
+            "outputPath": "dist/di-composer-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "reactive-composer-app:build:production"
+              "browserTarget": "di-composer-app:build:production"
             },
             "development": {
-              "browserTarget": "reactive-composer-app:build:development"
+              "browserTarget": "di-composer-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "reactive-composer-app:build"
+            "browserTarget": "di-composer-app:build"
           }
         },
         "test": {
