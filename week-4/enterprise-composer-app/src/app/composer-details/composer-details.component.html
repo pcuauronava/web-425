@@ -1,0 +1,26 @@
+<!-- 
+title: Composer Details
+author: Richard Krasso
+modified by: Patrick Cuauro
+date: 8/23/2023
+description: Composer Details html page
+ -->
+<div clas="row">
+    <div class="col-sm-12">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <strong>Composer ID:</strong> {{ composer.composerId }}
+            </li>
+            <li class="list-group-item">
+                <strong>Full Name:</strong> {{ composer.fullName }}
+            </li>
+            <li class="list-group-item">
+                <strong>Genre:</strong> {{ composer.genre }}
+            </li>
+
+        </ul>
+        <br />
+        <a routerLink="/" class="float-right">Return to Composers</a>
+        <!-- different from example routerLink="/composer-list", link not returning to list  -->
+    </div>
+</div>

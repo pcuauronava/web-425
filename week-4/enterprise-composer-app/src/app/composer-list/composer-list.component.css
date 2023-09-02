@@ -1,0 +1,12 @@
+/* 
+* Title: composer-list.component.css
+* Author: Professor Krasso
+* Date: 08/30/2030
+* Modified: Patrick Cuauro
+* Description: composer list component css file
+*/
+.textSearch {
+  width: 30%;
+  float: right;
+  margin-bottom: 5px;
+}
