@@ -1,0 +1,15 @@
+/**
+* Title: base-layout.component.css
+* Author: Richard Krasso
+* Modified by: Patrick Cuauro
+* Date: 09/13/2023
+* Description: CSS for base-layout.component
+*/
+.logo {
+  margin-top: 5px;
+}
+.main-container {
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
